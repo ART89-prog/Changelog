@@ -30,10 +30,10 @@
         font-size: 11px;
         margin-top: 7px;
     }
-    .text_block {
+    .post_wrap {
         width: calc(100% - 90px);
     }
-    .text_block:before {
+    .post_wrap:before {
         left: -60px;
         bottom: -42px;
         top: 113px;
@@ -47,6 +47,15 @@
     }
     .post:last-child {
         padding-bottom: 50px;
+    }
+    .post_wrap .author .author_info-name {
+        font-size: 13px;
+    }
+    .post_wrap .author .author_info-post {
+        font-size: 11px;
+    }
+    .post_wrap .author .author_info {
+        margin-left: 8px;
     }
   
 

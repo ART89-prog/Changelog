@@ -10,10 +10,10 @@
     header {
         margin-bottom: 0;
     }
-    .text_block {
+    .post_wrap {
         width: calc(100% - 162px);
     }
-    .text_block:before {
+    .post_wrap:before {
         left: -107px;
     }
    
