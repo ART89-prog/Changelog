@@ -414,19 +414,12 @@ header .cont {
 .post_wrap:before {
     content: ''; 
 	position: absolute;
-	top: 155px;
-	bottom: -55px;
+    top: 145px;
+    bottom: -85px;
 	left: -112px;    
-	/* border: 1px dashed #A9B5BD; */
-    /* border: solid transparent;  */
-    /* border-width: 0 0 0 3px; 
-    border-image: url("../images/border.svg");
-    border-image-repeat: round; */
-
-    /* border: 19px dotted #c905c6; */
     border: 1px dashed #A9B5BD;
     border-image-source: url("../images/border.svg");
-    border-image-slice: 19;
+    border-image-slice: 1;
     border-image-width: 1px;
     border-image-repeat: round;
 
